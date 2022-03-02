@@ -1,0 +1,136 @@
+{
+	"info": {
+		"_postman_id": "e03d9dce-7f90-416e-856a-81fc99199992",
+		"name": "project 4",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8091/yanki/send",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"documentNumber\": \"72838191\",\r\n    \"phoneNumber\": \"995562965\",\r\n    \"phoneIMEI\": \"1234\",\r\n    \"email\": \"algera@gmail.com\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8091/yanki/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8091",
+					"path": [
+						"yanki",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8091/yanki/2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8091/yanki/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8091",
+					"path": [
+						"yanki",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8091/yanki/send",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"documentNumber\": \"72838191\",\r\n    \"phoneNumber\": \"995562965\",\r\n    \"phoneIMEI\": \"1234\",\r\n    \"email\": \"algera@gmail.com\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8091/yanki/send",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8091",
+					"path": [
+						"yanki",
+						"send"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8091/yanki/4",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"documentNumber\": \"777777777\",\r\n    \"phoneNumber\": \"995562965\",\r\n    \"phoneIMEI\": \"1234\",\r\n    \"email\": \"alberto@gmail.com\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8091/yanki/4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8091",
+					"path": [
+						"yanki",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8091/yanki/4",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8091/yanki/4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8091",
+					"path": [
+						"yanki",
+						"4"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
